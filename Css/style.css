@@ -99,9 +99,11 @@ header nav a{
     -o-transition: var(--main-transition);
 }
 
-header nav li:hover a{
+header nav li:hover a,
+header nav a.active{
     color: #fff;
 }
+
 
 /* Media Header */
 @media (max-width: 767px){
